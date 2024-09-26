@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tips recomendaciones de ciberseguridad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: #333;
+            overflow: hidden;
+        }
+
+        /* Fondo animado con video */
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+            opacity: 0.6; /* Ajustar opacidad del video */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .title-button {
+            background-color: #1E90FF;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .title-button:hover {
+            background-color: #1C86EE;
+        }
+
+        main {
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.3); /* Ajustar la opacidad del fondo del main */
+            margin: 60px 5px 5px 5px;
+            border-radius: 8px;
+            position: relative;
+            z-index: 1;
+            overflow-y: auto;
+            max-height: calc(100vh - 60px);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: square;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #d5ffff;
+            text-align: center;
+            padding: 0px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            z-index: 3;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #1E90FF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .boton-estilizado {
+            display: inline-block;
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .boton-estilizado:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video de fondo -->
+    <video class="background-video" autoplay muted loop>
+        <source src="video1.mp4" type="video/mp4">
+        Tu navegador no soporta videos en HTML5.
+    </video>
+
+    <header>
+        <button class="title-button">Tips recomendaciones de ciberseguridad</button>
+    </header>
+
+    <main>
+        <h2>Consejos para protegerte en línea</h2>
+        <p>A continuación, te ofrecemos algunas recomendaciones básicas para mejorar tu seguridad en internet:</p>
+
+        <ul>
+            <li><strong>Usa contraseñas seguras:</strong> Asegúrate de que tus contraseñas sean largas y difíciles de adivinar. Utiliza una combinación de letras, números y caracteres especiales.
+                <img src="descarga.png" alt="Contraseñas seguras">
+            </li>
+            <li><strong>Actualiza tu software:</strong> Mantén actualizado tu sistema operativo, navegador y cualquier otro software que utilices.
+                <img src="2imagen.jpg" alt="Actualización de software">
+            </li>
+            <li><strong>Utiliza autenticación de dos factores (2FA):</strong> Siempre que sea posible, habilita la autenticación de dos factores para añadir una capa extra de seguridad.
+                <img src="2FA.JPG.webp" alt="Autenticación de dos factores">
+            </li>
+            <li><strong>Evita hacer clic en enlaces sospechosos:</strong> No abras enlaces o archivos adjuntos en correos electrónicos de remitentes desconocidos.
+                <img src="qw.gif" alt="Enlaces sospechosos">
+            </li>
+            <li><strong>Usa una red VPN:</strong> Cuando accedas a internet desde una red pública, utiliza una VPN para proteger tu conexión.
+                <img src="vpn.gif" alt="Red VPN">
+            </li>
+            <li><strong>Haz copias de seguridad:</strong> Regularmente guarda una copia de tus archivos importantes en un lugar seguro, como un disco externo o en la nube.
+                <img src="nube.gif" alt="Copias de seguridad">
+            </li>
+
+        </ul>
+        <li>
+                <h3>Enlaces útiles para evitar ataques cibernéticos:</h3>
+                <a href="https://www.lisainstitute.com/blogs/blog/lista-consejos-ciberseguridad-vida-cibersegura?srsltid=AfmBOoo1j0U_L7TZcYAxbi4stuP7Y_aElWjnooK2-qodiuY36PCcsIbu">Consejos de Ciberseguridad de Lisa Institute</a><br>
+                <a href="https://latam.kaspersky.com/resource-center/preemptive-safety/how-to-prevent-cyberattacks?srsltid=AfmBOopGegu7zbiZzZP5HxJjZp8zbU6miIw4B6EHv35Y3_6p6B-yIBHM">Cómo prevenir ataques cibernéticos - Kaspersky</a>
+            </li>
+            <br><br>
+            
+             <table><tr>hacer clic en siguiente boton</tr></table>      
+            <a href="https://spaceshelter.withgoogle.com/intl/es_es" class="boton-estilizado">Juega Space Shelter y aprende sobre seguridad online</a>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; Creado por el profesor Roberto Gordon. "Todos los derechos reservados."</p>
+    </footer>
+</body>
+</html>
+
